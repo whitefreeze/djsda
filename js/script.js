@@ -15,6 +15,13 @@ $('#contact').hide()
 //$('#daily').hide()
 
 
+// Tab icon animations
+$('.tabber').find('.tab').click(function() {
+  let icon = $(this).find("span")
+  icon.hide(0)
+  icon.show(0);
+})
+
 let tab1 = $('#tab1')
 let tab2 = $('#tab2')
 let tab3 = $('#tab3')
