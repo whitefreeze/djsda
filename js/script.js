@@ -15,35 +15,6 @@ $('#contact').hide()
 //$('#daily').hide()
 
 
-// Tab icon animations
-
-/* $('.tabber').find('.tab').click(function() {
-  let icon = $(this).find("span")
-  icon.hide(0);
-  icon.show(0);
-}) */
-
-/* $('.tabber').find('.tab').hover(
-  function() {
-    let icon = $(this).find("span");
-    console.log("hovering over Tab")
-    console.log(icon)
-    //icon.removeClass("rotateIn");
-    //icon.addClass("bounce");
-    icon.removeClass("bounce");
-    icon.addClass("rotateIn");
-    //icon.hide(0);
-    //icon.show(0);
-  },
-  function() {
-    let icon = $(this).find("span");
-    icon.removeClass("bounce");
-    icon.addClass("rotateIn");
-    //icon.addClass("bounce")
-  }
-) */
-
-
 let tab1 = $('#tab1')
 let tab2 = $('#tab2')
 let tab3 = $('#tab3')
